@@ -1,0 +1,19 @@
+name: inr
+version: 1.0.0
+
+authors:
+  - David Tyler <davet.code@gmail.com>
+
+targets:
+  inr:
+    main: src/inr.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  crest:
+    github: mamantoha/crest
+
+crystal: 1.0.0
+
+license: MIT
