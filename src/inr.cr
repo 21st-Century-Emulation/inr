@@ -24,7 +24,7 @@ end
 class Cpu
   include JSON::Serializable
 
-  property opcode : UInt8, state : CpuState
+  property opcode : UInt8, id : String, state : CpuState
 end  
 
 VERSION = "0.1.0"
