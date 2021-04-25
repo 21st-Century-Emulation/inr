@@ -18,7 +18,7 @@ end
 class CpuState
   include JSON::Serializable
 
-  property a : UInt8, b : UInt8, c : UInt8, d : UInt8, e : UInt8, h : UInt8, l : UInt8, stackPointer : UInt16, programCounter : UInt16, cycles : UInt64, flags : CpuFlags
+  property a : UInt8, b : UInt8, c : UInt8, d : UInt8, e : UInt8, h : UInt8, l : UInt8, stackPointer : UInt16, programCounter : UInt16, cycles : UInt64, flags : CpuFlags, interruptsEnabled : Bool
 end
 
 class Cpu
