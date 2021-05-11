@@ -11,8 +11,6 @@ targets:
 dependencies:
   kemal:
     github: kemalcr/kemal
-  crest:
-    github: mamantoha/crest
 
 crystal: 1.0.0
 
