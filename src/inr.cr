@@ -2,6 +2,8 @@ require "http/client"
 require "json"
 require "kemal"
 
+logging false
+
 # You can use JSON.mapping to directly create an object from JSON
 class User
   include JSON::Serializable
